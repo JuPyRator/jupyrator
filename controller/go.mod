@@ -1,11 +1,12 @@
 module github.com/kernel-manager-controller
 
 go 1.23.4
+
 toolchain go1.24.1
 
 require (
 	github.com/go-logr/logr v1.4.2
-	github.com/onsi/ginkgo/v2 v2.23.0
+	github.com/onsi/ginkgo/v2 v2.23.3
 	github.com/onsi/gomega v1.36.2
 	github.com/prometheus/client_golang v1.21.1
 	k8s.io/api v0.32.3
